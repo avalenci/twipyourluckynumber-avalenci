@@ -10,7 +10,8 @@ public class Perfect {
         name = n;
     }
 
-    public void perfectRandom() {
-        int x = ((int) Math.random() * 1001 + 1);
+    public int perfectRandom() {
+        int x = (int) Math.pow((int) (Math.random() * 1001), 2);
+        return x;
     }
 }
